@@ -167,7 +167,6 @@ bool colSum(int squareArray[squareSize][squareSize], double num)
 bool diagSum(int squareArray[squareSize][squareSize], double num)
 {
     
-    // Starting at [0][0]
     double calc = 0;
 
     for (int i = 0; i < squareSize; i++) {
@@ -182,7 +181,7 @@ bool diagSum(int squareArray[squareSize][squareSize], double num)
 
     for (int i = 0; i < squareSize; i++) {
         
-        calc += squareArray[i][squareSize - i];
+        calc += squareArray[i][squareSize - 1 - i];
 
     }
 
