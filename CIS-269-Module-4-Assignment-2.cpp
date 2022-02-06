@@ -80,7 +80,7 @@ int main()
     }
 
     cout << "Total magic squares:     " << numOfMagicSquares << endl;
-    cout << "Total non-magic squares  " << (timesToRun - numOfMagicSquares);
+    cout << "Total non-magic squares  " << (timesToRun - numOfMagicSquares) << endl;
 
     return 0;
 }
